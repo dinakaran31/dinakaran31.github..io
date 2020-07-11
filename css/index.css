@@ -1,0 +1,260 @@
+body{
+
+    background-color:black;
+}
+
+
+.main{
+    position:relative;
+
+}
+
+
+.name{
+    color:white;
+    font-style: italic;
+}
+
+.photo{
+    padding-top: 5px;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+button{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    padding: 10px 20px;
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.ml5 {
+    position: absolute;
+    top:34%;
+    left:76%;
+    font-weight: bold;
+    font-size: 2.3em;
+    color: white;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color:grey;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+  .courses{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .c_1{
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    border-radius: 50px;
+    
+  }
+  .mark_1{
+    position: absolute;
+    color:white;
+    left:4%;
+    padding:5px;
+    
+  }
+  .cpp_2{
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+
+  }
+  .mark_2{
+    position: absolute;
+    color:white;
+    left:38%;
+    padding:5px;
+
+  }
+  .java_3{
+    position: relative;
+    text-align: right;
+    padding: 30px;
+    border-radius: 50px;
+  }
+.mark_3{
+  position: absolute;
+  color:white;
+  left:70%;
+  padding:5px;
+}
+h2{
+  font-weight: bold;
+  color: white;
+}
+.project_title{
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 70px;
+}
+.project_img{
+  text-align: center;
+}
+.prev{
+  margin-bottom: 200px;
+}
+.next{
+  margin-bottom: 200px;
+}
+.actual_img{
+  border-radius: 15px;
+}
+.project_desc{
+  margin-left:180px;
+}
+.project_content{
+  text-align:left;
+  color:white;
+}
+.project_name{
+  text-align:left;
+  color:white;
+  margin-left:20px;
+}
+.resume {
+  text-align: left;
+  color: white;
+}
+.class_10{
+  position: relative;
+  text-align: left;
+  padding:30px;
+  border-radius: 50px;
+}
+.class_12{
+  position: relative;
+  text-align: center;
+  padding:30px;
+  border-radius: 50px;
+}
+.class_bca{
+  position: relative;
+  text-align: right;
+  padding:30px;
+  border-radius: 50px;
+}
+.contact_me {
+  margin-top: 50px;
+  color:white;
+  text-align: center;
+  justify-content: left;
+}
+.myproject{
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  font-size:xx-large;
+  padding-top: 70px;
+}
+
+#gallerywrapper {
+width:640px;
+height:450px;
+margin:0 auto;
+position:relative;
+font-family:verdana, arial, sans-serif;
+} 
+
+#gallerywrapper #gallery {
+position:absolute;
+left:0;
+top:0;
+height:450px;
+width:640px;
+overflow:hidden;
+text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+width:640px; height:900px; 
+padding-top:10px; 
+position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+clear:both; 
+display:block; 
+margin:0 auto; 
+border:0;
+} 
+
+#gallerywrapper #gallery div h3 {
+padding:10px 0 0 0; 
+margin:0; 
+font-size:18px;
+color: white;
+} 
+
+#gallerywrapper #gallery div p {
+
+text-align: left;
+font-weight:bold;
+color: white; 
+
+} 
+
+#gallery .previous{ 
+display:inline;
+margin-left:40px;
+text-decoration: white;
+} 
+
+#gallery .next{ 
+display:inline;
+margin-right:40px;
+text-decoration:none;
+}
